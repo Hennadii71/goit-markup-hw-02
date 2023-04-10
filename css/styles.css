@@ -88,6 +88,7 @@ body {
   color: #ffffff;
 }
 .botton-hero {
+  font-family: var(--primary-txt);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -141,6 +142,9 @@ body {
 .list-team-item {
   background-color: #ffffff;
 }
+.txt-our-team {
+  font-size: 16px;
+}
 /* Footer */
 .foot {
   font-family: Raleway, sans-serif;
@@ -161,11 +165,13 @@ body {
 }
 /* Portfolio */
 .btn-filter {
-  font-family: 'Roboto';
+  font-family: 'Roboto' sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+}
+.btn-filter {
   color: var(--primary-brand);
   background-color: #f4f4fd;
   cursor: pointer;
