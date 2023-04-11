@@ -124,6 +124,8 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+}
+.title-element {
   color: var(--title-txt);
 }
 /* Photo section */
@@ -180,4 +182,13 @@ body {
 .btn-filter:focus {
   color: #ffffff;
   background-color: var(--pressed-state);
+}
+.txt-portfolio {
+  font-family: var(--primary-txt);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.txt-portfolio {
+  color: var(--body-txt);
 }
